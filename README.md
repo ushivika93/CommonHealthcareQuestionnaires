@@ -1,8 +1,6 @@
 # CommonHealthcareQuestionnaires
 
-# Healthcare Questionnaire Scoring
-
-SAS programs to automatically score commonly used healthcare psychology questionnaires.
+SAS programs and original articles to automatically score commonly used healthcare psychology questionnaires.
 
 ## Available Questionnaires
 
