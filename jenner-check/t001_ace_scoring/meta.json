@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_ace_scoring",
+  "source_file": "ACE/ACE.sas",
+  "source_blob_sha": "f3c9440b88b89fd4a8f30bb2a9a215a43ec04825",
+  "source_commit": "81c4a8129ad082f562c639d9360d4c4d93dbb085",
+  "notes": "ACE (Adverse Childhood Experiences) 10-item questionnaire scorer. Author's array-based recode + missing-count imputation, RAW_SUM/SUM/AVG scores, and ABUSE/NEGLECT/HOUSEHOLDDYSFUNCTION subscales run verbatim; PROC FREQ/UNIVARIATE/MEANS/CORR (Cronbach alpha) all produce output. Substitutions: external 'proc import datafile=\" \"' replaced by an inline 18-row ACE1-ACE10 (0/1) datalines dataset in autoexec; empty ODS RTF paths and empty libname made relative. Header banner comment normalized from *...*/; to /*...*/ form."
+}

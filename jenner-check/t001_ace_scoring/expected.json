@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T09:50:00Z",
+  "_captured_run_id": "r_bdf1fb5fd3fa4eee84d190700c384031",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote fullds (18 rows, 10 columns).",
+    "NOTE: Wrote ds1 (18 rows, 17 columns).",
+    "NOTE: PROC PRINT completed: 18 observations printed, 10 variables",
+    "NOTE: Wrote aces.ACE_ds (18 rows, 17 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

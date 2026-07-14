@@ -1,0 +1,105 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T061458Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA fullds
+
+NOTE: Processing inline DATALINES (18 lines)
+
+NOTE: Read 18 rows from DATALINES.
+NOTE: Wrote fullds (18 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=fullds
+
+NOTE: PROC CONTENTS completed: 18 observations, 10 variables
+NOTE: PROC PRINT data=fullds
+
+NOTE: PROC PRINT completed: 18 observations printed, 10 variables
+ACE ACE1-ACE10
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ace1.spec.json
+NOTE: ODS plot written: freq_ace2.spec.json
+NOTE: ODS plot written: freq_ace3.spec.json
+NOTE: ODS plot written: freq_ace4.spec.json
+NOTE: ODS plot written: freq_ace5.spec.json
+NOTE: ODS plot written: freq_ace6.spec.json
+NOTE: ODS plot written: freq_ace7.spec.json
+NOTE: ODS plot written: freq_ace8.spec.json
+NOTE: ODS plot written: freq_ace9.spec.json
+NOTE: ODS plot written: freq_ace10.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: ODS RTF: wrote report to /tmp/work/r_bdf1fb5fd3fa4eee84d190700c384031/ACE_RAW_Summary.rtf.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ace1.spec.json
+NOTE: ODS plot written: freq_ace2.spec.json
+NOTE: ODS plot written: freq_ace3.spec.json
+NOTE: ODS plot written: freq_ace4.spec.json
+NOTE: ODS plot written: freq_ace5.spec.json
+NOTE: ODS plot written: freq_ace6.spec.json
+NOTE: ODS plot written: freq_ace7.spec.json
+NOTE: ODS plot written: freq_ace8.spec.json
+NOTE: ODS plot written: freq_ace9.spec.json
+NOTE: ODS plot written: freq_ace10.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA ds1
+
+
+NOTE: Read 18 rows from fullds.
+NOTE: Wrote ds1 (18 rows, 17 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=ds1
+
+NOTE: PROC CONTENTS completed: 18 observations, 17 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ace1.spec.json
+NOTE: ODS plot written: freq_ace2.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ace_num_miss.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC UNIVARIATE
+NOTE: Option TITLE changed to Summarization of ACE Summary Variables and Missing Values at baseline.
+NOTE: PROC UNIVARIATE
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ace_num_miss.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: Option TITLE changed to Summarization of Raw and Imputed Sum of ACE total score and subscales_Baseline.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Internal Consistency Ace Abuse.
+NOTE: PROC CORR data=ds1
+
+NOTE: Cronbach Coefficient Alpha = 0.6053
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: Option TITLE changed to Internal Consistency Ace Abuse.
+NOTE: PROC CORR data=ds1
+
+NOTE: Cronbach Coefficient Alpha = 0.5083
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: Option TITLE changed to Internal Consistency Ace Neglect.
+NOTE: PROC CORR data=ds1
+
+NOTE: Cronbach Coefficient Alpha = -0.2414
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: Option TITLE changed to Internal Consistency ACE Household Dysfunction.
+NOTE: PROC CORR data=ds1
+
+NOTE: Cronbach Coefficient Alpha = 0.6385
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: ODS RTF: wrote report to /tmp/work/r_bdf1fb5fd3fa4eee84d190700c384031/Summary_ACE.rtf.
+NOTE: Library ACES assigned path=..
+NOTE: DATA aces.ACE_ds
+
+
+NOTE: Read 18 rows from ds1.
+NOTE: Wrote aces.ACE_ds (18 rows, 17 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
