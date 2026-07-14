@@ -1,0 +1,853 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: fullds
+Observations:  18
+Variables:     10
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  ACE1       Num      8          
+  2  ACE10      Num      8          
+  3  ACE2       Num      8          
+  4  ACE3       Num      8          
+  5  ACE4       Num      8          
+  6  ACE5       Num      8          
+  7  ACE6       Num      8          
+  8  ACE7       Num      8          
+  9  ACE8       Num      8          
+ 10  ACE9       Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  ACE1  ACE2  ACE3  ACE4  ACE5  ACE6  ACE7  ACE8  ACE9  ACE10
+-----  ----  ----  ----  ----  ----  ----  ----  ----  ----  -----
+    1     0     0     0     0     0     0     0     0     0      0
+    2     1     1     0     0     0     1     0     0     0      0
+    3     1     0     1     0     1     0     0     1     0      0
+    4     0     0     0     0     0     1     1     0     0      1
+    5     1     1     1     1     1     1     1     1     1      1
+    6     0     1     0     0     0     0     0     0     1      0
+    7     1     0     0     1     0     0     0     0     0      0
+    8     0     0     1     0     0     1     0     0     0      1
+    9     1     1     0     0     1     0     1     0     0      0
+   10     0     0     0     0     0     0     0     0     0      0
+   11     1     0     0     0     1     0     0     1     1      0
+   12     0     1     1     1     0     0     0     0     0      0
+   13     1     1     1     0     0     1     0     1     0      1
+   14     0     0     0     0     1     0     0     0     0      0
+   15     1     0     1     0     0     0     1     0     1      0
+   16     0     1     0     1     0     1     0     0     0      1
+   17     1     1     1     1     0     0     0     0     0      0
+   18     0     0     0     0     0     0     1     1     1      1
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+ACE1    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0               9     50.00            9        50.00
+1               9     50.00           18       100.00
+
+                                  Cumulative    Cumulative
+ACE2    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              10     55.56           10        55.56
+1               8     44.44           18       100.00
+
+                                  Cumulative    Cumulative
+ACE3    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              11     61.11           11        61.11
+1               7     38.89           18       100.00
+
+                                  Cumulative    Cumulative
+ACE4    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE5    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE6    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              12     66.67           12        66.67
+1               6     33.33           18       100.00
+
+                                  Cumulative    Cumulative
+ACE7    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE8    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE9    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                   Cumulative    Cumulative
+ACE10    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+0               12     66.67           12        66.67
+1                6     33.33           18       100.00
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+ACE1    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0               9     50.00            9        50.00
+1               9     50.00           18       100.00
+
+                                  Cumulative    Cumulative
+ACE2    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              10     55.56           10        55.56
+1               8     44.44           18       100.00
+
+                                  Cumulative    Cumulative
+ACE3    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              11     61.11           11        61.11
+1               7     38.89           18       100.00
+
+                                  Cumulative    Cumulative
+ACE4    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE5    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE6    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              12     66.67           12        66.67
+1               6     33.33           18       100.00
+
+                                  Cumulative    Cumulative
+ACE7    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE8    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                  Cumulative    Cumulative
+ACE9    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              13     72.22           13        72.22
+1               5     27.78           18       100.00
+
+                                   Cumulative    Cumulative
+ACE10    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+0               12     66.67           12        66.67
+1                6     33.33           18       100.00
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: ds1
+Observations:  18
+Variables:     17
+
+Variables (in alphabetical order):
+
+  #  Variable                  Type    Len  Format  Label
+---  ------------------------  ----  -----  ------  -------------------------------------
+  1  ACE1                       Num      8          
+  2  ACE10                      Num      8          
+  3  ACE2                       Num      8          
+  4  ACE3                       Num      8          
+  5  ACE4                       Num      8          
+  6  ACE5                       Num      8          
+  7  ACE6                       Num      8          
+  8  ACE7                       Num      8          
+  9  ACE8                       Num      8          
+ 10  ACE9                       Num      8          
+ 11  ACE_ABUSE                  Num      8          ACE Subscale- Abuse
+ 12  ACE_HOUSEHOLDDYSFUNCTION   Num      8          ACE Subscale- Household Dysfnction
+ 13  ACE_NEGLECT                Num      8          ACE Subscale- Neglect
+ 14  ACE_num_miss               Num      8          
+ 15  RAW_AVG_ACE                Num      8          
+ 16  RAW_SUM_ACE                Num      8          
+ 17  SUM_ACE                    Num      8          (Imputed) Summary Score for ACE Scale
+
+-------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+ACE1    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0               9     50.00            9        50.00
+1               9     50.00           18       100.00
+
+                                  Cumulative    Cumulative
+ACE2    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              10     55.56           10        55.56
+1               8     44.44           18       100.00
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+ACE_num_miss    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+0                      18    100.00           18       100.00
+                                                The UNIVARIATE Procedure
+                              Variable:  SUM_ACE  ((Imputed) Summary Score for ACE Scale)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        3.388889    Sum Observations           61.000000
+Std Deviation               2.252812    Variance                    5.075163
+Skewness                    1.222912    Kurtosis                    3.747680
+Uncorrected SS            293.000000    Corrected SS               86.277778
+Coeff Variation            66.476429    Std Error Mean              0.530993
+
+         Basic Statistical Measures         
+
+Location            Variability             
+--------  --------  -------------  ---------
+Mean      3.388889  Std Deviation   2.252812
+Median    3.500000  Variance        5.075163
+Mode      4.000000  Range          10.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       0.000000
+1%           0.000000
+5%           0.000000
+10%          0.000000
+25% Q1       2.000000
+50% Median   3.500000
+75% Q3       4.000000
+90%          6.000000
+95%         10.000000
+99%         10.000000
+100% Max    10.000000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     0.000000  Value      4.000000
+Value     0.000000  Value      4.000000
+Value     1.000000  Value      4.000000
+Value     2.000000  Value      6.000000
+Value     2.000000  Value     10.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.382172934  0.000006819
+Sign                        8  0.000030518
+Signed Rank               136  0.000437863
+
+
+                                                The UNIVARIATE Procedure
+                                      Variable:  ACE_ABUSE  (ACE Subscale- Abuse)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        1.333333    Sum Observations           24.000000
+Std Deviation               1.084652    Variance                    1.176471
+Skewness                    0.172866    Kurtosis                   -1.190000
+Uncorrected SS             52.000000    Corrected SS               20.000000
+Coeff Variation            81.348922    Std Error Mean              0.255655
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.333333  Std Deviation  1.084652
+Median    1.000000  Variance       1.176471
+Mode      0.000000  Range          3.000000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 5.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  1.000000
+75% Q3      2.000000
+90%         3.000000
+95%         3.000000
+99%         3.000000
+100% Max    3.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         5.215361924  0.000070004
+Sign                      6.5  0.000244141
+Signed Rank                91  0.001473911
+
+
+                                                The UNIVARIATE Procedure
+                                    Variable:  ACE_NEGLECT  (ACE Subscale- Neglect)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        0.555556    Sum Observations           10.000000
+Std Deviation               0.615699    Variance                    0.379085
+Skewness                    0.616065    Kurtosis                   -0.391141
+Uncorrected SS             12.000000    Corrected SS                6.444444
+Coeff Variation           110.825777    Std Error Mean              0.145122
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      0.555556  Std Deviation  0.615699
+Median    0.500000  Variance       0.379085
+Mode      0.000000  Range          2.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  0.500000
+75% Q3      1.000000
+90%         1.000000
+95%         2.000000
+99%         2.000000
+100% Max    2.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     2.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.828207467  0.001345858
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+
+                                                The UNIVARIATE Procedure
+                       Variable:  ACE_HOUSEHOLDDYSFUNCTION  (ACE Subscale- Household Dysfnction)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        1.500000    Sum Observations           27.000000
+Std Deviation               1.504894    Variance                    2.264706
+Skewness                    0.873773    Kurtosis                    0.148524
+Uncorrected SS             79.000000    Corrected SS               38.500000
+Coeff Variation           100.326265    Std Error Mean              0.354707
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.500000  Std Deviation  1.504894
+Median    1.000000  Variance       2.264706
+Mode      0.000000  Range          5.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  1.000000
+75% Q3      2.000000
+90%         4.000000
+95%         5.000000
+99%         5.000000
+100% Max    5.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     4.000000
+Value     0.000000  Value     5.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.228843445  0.000565328
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+                         Summarization of ACE Summary Variables and Missing Values at baseline
+
+                                                The UNIVARIATE Procedure
+                                                 Variable:  RAW_SUM_ACE
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        3.388889    Sum Observations           61.000000
+Std Deviation               2.252812    Variance                    5.075163
+Skewness                    1.222912    Kurtosis                    3.747680
+Uncorrected SS            293.000000    Corrected SS               86.277778
+Coeff Variation            66.476429    Std Error Mean              0.530993
+
+         Basic Statistical Measures         
+
+Location            Variability             
+--------  --------  -------------  ---------
+Mean      3.388889  Std Deviation   2.252812
+Median    3.500000  Variance        5.075163
+Mode      4.000000  Range          10.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       0.000000
+1%           0.000000
+5%           0.000000
+10%          0.000000
+25% Q1       2.000000
+50% Median   3.500000
+75% Q3       4.000000
+90%          6.000000
+95%         10.000000
+99%         10.000000
+100% Max    10.000000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     0.000000  Value      4.000000
+Value     0.000000  Value      4.000000
+Value     1.000000  Value      4.000000
+Value     2.000000  Value      6.000000
+Value     2.000000  Value     10.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.382172934  0.000006819
+Sign                        8  0.000030518
+Signed Rank               136  0.000437863
+
+
+                                                The UNIVARIATE Procedure
+                              Variable:  SUM_ACE  ((Imputed) Summary Score for ACE Scale)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        3.388889    Sum Observations           61.000000
+Std Deviation               2.252812    Variance                    5.075163
+Skewness                    1.222912    Kurtosis                    3.747680
+Uncorrected SS            293.000000    Corrected SS               86.277778
+Coeff Variation            66.476429    Std Error Mean              0.530993
+
+         Basic Statistical Measures         
+
+Location            Variability             
+--------  --------  -------------  ---------
+Mean      3.388889  Std Deviation   2.252812
+Median    3.500000  Variance        5.075163
+Mode      4.000000  Range          10.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       0.000000
+1%           0.000000
+5%           0.000000
+10%          0.000000
+25% Q1       2.000000
+50% Median   3.500000
+75% Q3       4.000000
+90%          6.000000
+95%         10.000000
+99%         10.000000
+100% Max    10.000000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     0.000000  Value      4.000000
+Value     0.000000  Value      4.000000
+Value     1.000000  Value      4.000000
+Value     2.000000  Value      6.000000
+Value     2.000000  Value     10.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.382172934  0.000006819
+Sign                        8  0.000030518
+Signed Rank               136  0.000437863
+
+
+                                                The UNIVARIATE Procedure
+                                                 Variable:  RAW_AVG_ACE
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        0.338889    Sum Observations            6.100000
+Std Deviation               0.225281    Variance                    0.050752
+Skewness                    1.222912    Kurtosis                    3.747680
+Uncorrected SS              2.930000    Corrected SS                0.862778
+Coeff Variation            66.476429    Std Error Mean              0.053099
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      0.338889  Std Deviation  0.225281
+Median    0.350000  Variance       0.050752
+Mode      0.400000  Range          1.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.200000
+50% Median  0.350000
+75% Q3      0.400000
+90%         0.600000
+95%         1.000000
+99%         1.000000
+100% Max    1.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     0.400000
+Value     0.000000  Value     0.400000
+Value     0.100000  Value     0.400000
+Value     0.200000  Value     0.600000
+Value     0.200000  Value     1.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.382172934  0.000006819
+Sign                        8  0.000030518
+Signed Rank               136  0.000437863
+
+
+                                                The UNIVARIATE Procedure
+                                      Variable:  ACE_ABUSE  (ACE Subscale- Abuse)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        1.333333    Sum Observations           24.000000
+Std Deviation               1.084652    Variance                    1.176471
+Skewness                    0.172866    Kurtosis                   -1.190000
+Uncorrected SS             52.000000    Corrected SS               20.000000
+Coeff Variation            81.348922    Std Error Mean              0.255655
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.333333  Std Deviation  1.084652
+Median    1.000000  Variance       1.176471
+Mode      0.000000  Range          3.000000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 5.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  1.000000
+75% Q3      2.000000
+90%         3.000000
+95%         3.000000
+99%         3.000000
+100% Max    3.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         5.215361924  0.000070004
+Sign                      6.5  0.000244141
+Signed Rank                91  0.001473911
+
+
+                                                The UNIVARIATE Procedure
+                                    Variable:  ACE_NEGLECT  (ACE Subscale- Neglect)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        0.555556    Sum Observations           10.000000
+Std Deviation               0.615699    Variance                    0.379085
+Skewness                    0.616065    Kurtosis                   -0.391141
+Uncorrected SS             12.000000    Corrected SS                6.444444
+Coeff Variation           110.825777    Std Error Mean              0.145122
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      0.555556  Std Deviation  0.615699
+Median    0.500000  Variance       0.379085
+Mode      0.000000  Range          2.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  0.500000
+75% Q3      1.000000
+90%         1.000000
+95%         2.000000
+99%         2.000000
+100% Max    2.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     1.000000
+Value     0.000000  Value     2.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.828207467  0.001345858
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+
+                                                The UNIVARIATE Procedure
+                       Variable:  ACE_HOUSEHOLDDYSFUNCTION  (ACE Subscale- Household Dysfnction)
+
+                                                        Moments
+
+N                                 18    Sum Weights                       18
+Mean                        1.500000    Sum Observations           27.000000
+Std Deviation               1.504894    Variance                    2.264706
+Skewness                    0.873773    Kurtosis                    0.148524
+Uncorrected SS             79.000000    Corrected SS               38.500000
+Coeff Variation           100.326265    Std Error Mean              0.354707
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.500000  Std Deviation  1.504894
+Median    1.000000  Variance       2.264706
+Mode      0.000000  Range          5.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  1.000000
+75% Q3      2.000000
+90%         4.000000
+95%         5.000000
+99%         5.000000
+100% Max    5.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     4.000000
+Value     0.000000  Value     5.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.228843445  0.000565328
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+                         Summarization of ACE Summary Variables and Missing Values at baseline
+
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+ACE_num_miss    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+0                      18    100.00           18       100.00
+                     Summarization of Raw and Imputed Sum of ACE total score and subscales_Baseline
+
+                                                  The MEANS Procedure
+
+ Variable                  Label                                        N       Range     Minimum     Maximum        Mean     Std Dev   Lower Quartile      Median   Upper Quartile   N Miss
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ RAW_SUM_ACE                                                           18       10.00        0.00       10.00        3.39        2.25             2.00        3.50             4.00        0
+ SUM_ACE                   (Imputed) Summary Score for ACE Scale       18       10.00        0.00       10.00        3.39        2.25             2.00        3.50             4.00        0
+ ACE_ABUSE                 ACE Subscale- Abuse                         18        3.00        0.00        3.00        1.33        1.08             0.00        1.00             2.00        0
+ ACE_NEGLECT               ACE Subscale- Neglect                       18        2.00        0.00        2.00        0.56        0.62             0.00        0.50             1.00        0
+ ACE_HOUSEHOLDDYSFUNCTION  ACE Subscale- Household Dysfnction          18        5.00        0.00        5.00        1.50        1.50             0.00        1.00             2.00        0
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                             Internal Consistency Ace Abuse
+
+Cronbach Coefficient Alpha
+
+Statistic     Value
+---------  --------
+Raw        0.605280
+                                             Internal Consistency Ace Abuse
+
+Cronbach Coefficient Alpha
+
+Statistic     Value
+---------  --------
+Raw        0.508333
+                                            Internal Consistency Ace Neglect
+
+Cronbach Coefficient Alpha
+
+Statistic      Value
+---------  ---------
+Raw        -0.241379
+                                     Internal Consistency ACE Household Dysfunction
+
+Cronbach Coefficient Alpha
+
+Statistic     Value
+---------  --------
+Raw        0.638528
